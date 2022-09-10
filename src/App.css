@@ -13,19 +13,116 @@ body {
 .nav--title {
   color: #FFFFFF; 
   font-weight: 500;
-  font-size: 14.4608px;
+  font-size: 20.4608px;
+  letter-spacing: -0.075em;
 }
 
 .nav--bar {
   display: flex;
-  max-height: 55px;
+  height: 55px;
 
   justify-content: center;
   align-items: center;
-
+  padding: 10px 36px;
   background-color: #F55A5A;
+  gap: 10px;
+  margin-bottom: 75px;
 }
 .nav--globe {
-  max-width: 24px;
-  max-height: 24px;
+  width: 30px;
+}
+
+.entry--section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+
+  overflow: hidden;
+  max-height: 35vh;
+  max-width: 25vw;
+  /* max-width: 500px; */
+  min-width: 600px;
+  justify-content: center;
+
+  overflow-y: auto;
+}
+
+.entry--flex {
+  display: flex;
+ 
+  padding-bottom: 18px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 20px;
+
+}
+
+.entry--image {
+  object-fit: cover;
+  /* width: auto;
+  height: auto; */
+  max-width: 250px;
+  /* max-height: 100%; */
+  min-height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.entry--info {
+  text-align: left;
+  overflow-x: auto;
+  min-width: 70%;
+}
+
+.entry--location-icon {
+  height: 18px;
+}
+
+.entry--info-topbar {
+  margin: auto;
+  display: flex;
+}
+.location-icon-div {
+  padding-top: 20px;
+}
+
+.entry--location {
+  padding-left: 10px;
+  padding-right: 20px;
+  font-size: 18px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.entry--map-url {
+  font-size: 18px;
+
+}
+.entry--map-url > a {
+  text-decoration: none;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.entry--title {
+
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 30px;
+
+  margin-top: 15px;
+  color: #2B283A;
+}
+
+.entry--dates {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 12px;
+
+  color: #2B283A;
+
+}
+
+hr {
+  width: 100%;
 }
