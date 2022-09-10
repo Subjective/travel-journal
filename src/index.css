@@ -12,22 +12,3 @@ code {
     monospace;
 }
 
-.nav--title {
-  color: #FFFFFF; 
-  font-weight: 500;
-  font-size: 14.4608px;
-}
-
-.nav--bar {
-  display: flex;
-  max-height: 55px;
-
-  justify-content: center;
-  align-items: center;
-
-  background-color: #F55A5A;
-}
-.nav--globe {
-  max-width: 24px;
-  max-height: 24px;
-}
